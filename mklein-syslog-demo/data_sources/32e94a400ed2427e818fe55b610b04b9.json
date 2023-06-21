@@ -1,0 +1,11 @@
+{
+  "id" : "32e94a400ed2427e818fe55b610b04b9",
+  "name" : "kudu_default_database",
+  "type" : "catalog",
+  "properties" : {
+    "table_filters" : [ ],
+    "catalog_type" : "kudu",
+    "kudu.masters" : "mklein-bosch-kudu-master10.se-sandb.a465-9q4k.cloudera.site:7051,mklein-bosch-kudu-master20.se-sandb.a465-9q4k.cloudera.site:7051,mklein-bosch-kudu-master30.se-sandb.a465-9q4k.cloudera.site:7051"
+  },
+  "custom_truststore" : false
+}
