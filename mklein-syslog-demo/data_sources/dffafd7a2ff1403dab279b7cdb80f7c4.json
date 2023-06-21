@@ -1,0 +1,13 @@
+{
+  "id" : "dffafd7a2ff1403dab279b7cdb80f7c4",
+  "name" : "mklein-demo-sr",
+  "type" : "catalog",
+  "properties" : {
+    "table_filters" : [ ],
+    "catalog_type" : "registry",
+    "kafka.provider.id" : "42f941e6e1c0477f93412f0347bcba14",
+    "registry.address" : "https://mklein-bosch-kafka-master0.se-sandb.a465-9q4k.cloudera.site:7790/api/v1",
+    "registry.ssl.enabled" : true
+  },
+  "custom_truststore" : false
+}

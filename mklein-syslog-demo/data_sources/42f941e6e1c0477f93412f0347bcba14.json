@@ -1,0 +1,14 @@
+{
+  "id" : "42f941e6e1c0477f93412f0347bcba14",
+  "name" : "mklein-kafka",
+  "type" : "kafka",
+  "properties" : {
+    "brokers" : "mklein-bosch-kafka-corebroker0.se-sandb.a465-9q4k.cloudera.site:9093,mklein-bosch-kafka-corebroker1.se-sandb.a465-9q4k.cloudera.site:9093,mklein-bosch-kafka-corebroker2.se-sandb.a465-9q4k.cloudera.site:9093",
+    "protocol" : "sasl",
+    "mechanism" : "PLAIN",
+    "username" : "mklein",
+    "password" : "mkl@CDP1",
+    "ssl.truststore.location" : "/var/lib/cloudera-scm-agent/agent-cert/cm-auto-global_truststore.jks"
+  },
+  "custom_truststore" : false
+}
