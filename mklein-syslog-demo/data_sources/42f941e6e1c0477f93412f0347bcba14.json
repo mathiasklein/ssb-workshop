@@ -3,12 +3,12 @@
   "name" : "mklein-kafka",
   "type" : "kafka",
   "properties" : {
-    "brokers" : "mklein-bosch-kafka-corebroker0.se-sandb.a465-9q4k.cloudera.site:9093,mklein-bosch-kafka-corebroker1.se-sandb.a465-9q4k.cloudera.site:9093,mklein-bosch-kafka-corebroker2.se-sandb.a465-9q4k.cloudera.site:9093",
+    "brokers" : "mklein-kafka-corebroker0.se-sandb.a465-9q4k.cloudera.site:9093,mklein-kafka-corebroker1.se-sandb.a465-9q4k.cloudera.site:9093,mklein-kafka-corebroker2.se-sandb.a465-9q4k.cloudera.site:9093",
     "protocol" : "sasl",
     "mechanism" : "PLAIN",
+    "ssl.truststore.location" : "/var/lib/cloudera-scm-agent/agent-cert/cm-auto-global_truststore.jks",
     "username" : "mklein",
-    "password" : "mkl@CDP1",
-    "ssl.truststore.location" : "/var/lib/cloudera-scm-agent/agent-cert/cm-auto-global_truststore.jks"
+    "password" : "mkl@CDP1"
   },
   "custom_truststore" : false
 }
